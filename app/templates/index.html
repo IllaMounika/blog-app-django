@@ -1,0 +1,8 @@
+{% for book in books %}
+    booktitle: {{book.booktitle}}<br>
+    published by:{{book.author__name}}<br>
+
+    email id:{{book.author__email}}<br>
+    gender:{{book.author__gender}}<br>
+    <hr>
+{% endfor %}
